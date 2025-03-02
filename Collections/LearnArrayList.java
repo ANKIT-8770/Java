@@ -70,7 +70,12 @@ public class LearnArrayList {
 //
 //        list.clear(); //This will remove all the elements from the list.
 //        System.out.println(list);
-
+ System.out.println("min element " + Collections.min(list));
+        System.out.println("max element " + Collections.max(list));
+        System.out.println(Collections.frequency(list, 10));
+        
+        Collections.sort(list, Comparator.reverseOrder());
+        System.out.println(list);
 
 
     }
